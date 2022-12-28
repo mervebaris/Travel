@@ -4,6 +4,8 @@ module.exports = {
   theme: {
     fontFamily: {
       custom: ['"Alegreya"', "serif"],
+      custom1: ['"Cantarell"', "sans-serif"],
+      custom2: ['"Bad Script"', "cursive"]
     },
   },
   plugins: [],
