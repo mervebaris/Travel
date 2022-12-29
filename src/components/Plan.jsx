@@ -38,12 +38,12 @@ const Plan = () => {
       </div>
       {/*sağ*/}
       <div className="flex flex-col h-full justify-center">
-        <h3 className="font-custom2 text-5xl md:text-6xl font-bold text-orange-900">Plan Your Next Trip</h3>
+        <h3 className="font-custom2 text-3xl md:text-4xl font-bold text-orange-900">Plan Your Next Trip</h3>
         <p className="font-custom2 text-2xl py-6 text-orange-800">
           You are ready to plan your next trip, so let is find a stay that fits
           your needs.{" "}
         </p>
-        <p className="font-custom2 pb-6 text-orange-800">
+        <p className="font-custom2 pb-6 text-lg text-orange-800">
           Create a Trip board for all the plans for your next great adventure.
           Prepare cards for tasks you need to complete beforehand, as well as
           activities you want to check out while you're away.

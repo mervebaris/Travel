@@ -7,8 +7,8 @@ const Rooms = () => {
   return (
     <div className="max-w-[1400px] h-[500px] bg-orange-50 mx-auto my-2 pt-16 lg:mb-[20%] md:mb-[35%] px-4 grid lg:grid-cols-2 gap-4">
       <div className="lg:top-20 relative lg:col-span-1 col-span-2">
-        <h3 className="font-custom2 text-2xl font-bold text-orange-900">Fine Interior Rooms</h3>
-        <p className="font-custom2 pt-4 text-orange-800 mt-10">
+        <h3 className="font-custom2 text-3xl font-bold text-orange-900">Fine Interior Rooms</h3>
+        <p className="font-custom2 text-lg pt-4 text-orange-800 mt-10">
           Bastion Hotel Canggu is a 3-star hotel near the city centre of Breda.
           The hotel is situated along the A16 which makes you flexible in your
           plans during your stay. Our guests choose this hotel for its location,
