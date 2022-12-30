@@ -30,12 +30,12 @@ const Slider = () => {
 
   const prevSlider = () => {
     const isFirstSlider = currentIndex === 0;
-    const newIndex = isFirstSlider ? sliders.lenght - 1 : currentIndex - 1;
+    const newIndex = isFirstSlider ? sliders.length - 1 : currentIndex - 1;
     setCurrentIndex(newIndex);
   };
 
   const nextSlider = () => {
-    const isLastSlider = currentIndex === sliders.lenght - 1;
+    const isLastSlider = currentIndex === sliders.length - 1;
     const newIndex = isLastSlider ? 0 : currentIndex + 1;
     
     setCurrentIndex(newIndex);

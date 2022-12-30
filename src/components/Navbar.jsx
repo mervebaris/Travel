@@ -1,8 +1,26 @@
 import React, { useState } from "react";
 import Logo from "../assets/logo.jpg";
 import { HiMenuAlt3 } from "react-icons/hi";
+import { useNavigate } from "react-router-dom";
 
 function Navbar() {
+  const navigate = useNavigate();
+
+  const GitDest = () => {
+    navigate(`/destinations`);
+  };
+  const GitRez = () => {
+    navigate(`/rezervations`);
+  };
+  const GitAmen = () => {
+    navigate(`/amenities`);
+  };
+  const GitRoom = () => {
+    navigate(`/room`);
+  };
+
+
+
   const [nav, setNav] = useState(false);
   const handleNav = () => {
     setNav(!nav)
@@ -25,10 +43,10 @@ function Navbar() {
       >
         <ul className="flex flex-col fixed w-full h-full items-center justify-center">
           <li className="font-custom2 font-bold text-3xl p-8">Home</li>
-          <li className="font-custom2 font-bold text-3xl p-8">Destinations</li>
-          <li className="font-custom2 font-bold text-3xl p-8">Rezervations</li>
-          <li className="font-custom2 font-bold text-3xl p-8">Amenities</li>
-          <li className="font-custom2 font-bold text-3xl p-8">Rooms</li>
+          <li onClick={GitDest} className="font-custom2 font-bold text-3xl p-8">Destinations</li>
+          <li onClick={GitRez} className="font-custom2 font-bold text-3xl p-8">Rezervations</li>
+          <li onClick={GitAmen} className="font-custom2 font-bold text-3xl p-8">Amenities</li>
+          <li onClick={GitRoom}  className="font-custom2 font-bold text-3xl p-8">Rooms</li>
         </ul>
       </div>
     </div>
