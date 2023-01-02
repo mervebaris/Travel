@@ -10,31 +10,31 @@ const Destinations = () => {
     <div className="max-w-[1400px] m-auto py-12 px-4 grid lg:grid-cols-2 gap-7 shadow-xl-orange-50">
         {/*sol*/}
         <div className="flex flex-col h-full justify-center">
-        <p className="font-custom2 text-2xl py-6 text-orange-800">
+        <p className="font-custom2 text-2xl py-6 font-bold text-orange-800">
         BULGARI RESORT Milan
         </p>
-        <p className="font-custom2 text-2xl py-6 text-orange-800">
+        <p className="font-custom2 text-2xl py-6 font-bold text-orange-800">
         BULGARI RESORT London
         </p>
-        <p className="font-custom2 text-2xl py-6 text-orange-800">
+        <p className="font-custom2 text-2xl py-6 font-bold text-orange-800">
         BULGARI RESORT Dubai
         </p>
-        <p className="font-custom2 text-2xl py-6 text-orange-800">
+        <p className="font-custom2 text-2xl py-6 font-bold text-orange-800">
         BULGARI RESORT Bali
         </p>
-        <p className="font-custom2 text-2xl py-6 text-orange-800">
+        <p className="font-custom2 text-2xl py-6 font-bold text-orange-800">
         BULGARI RESORT Paris
         </p>
-        <p className="font-custom2 text-2xl py-6 text-orange-800">
+        <p className="font-custom2 text-2xl py-6 font-bold text-orange-800">
         BULGARI RESORT Rome
         </p>
-        <p className="font-custom2 text-2xl py-6 text-orange-800">
+        <p className="font-custom2 text-2xl py-6 font-bold text-orange-800">
         BULGARI RESORT Tokyo
         </p>
-        <p className="font-custom2 text-2xl py-6 text-orange-800">
+        <p className="font-custom2 text-2xl py-6 font-bold text-orange-800">
         BULGARI RESORT Los Angeles
         </p>
-        <p className="font-custom2 text-2xl py-6 text-orange-800">
+        <p className="font-custom2 text-2xl py-6 font-bold text-orange-800">
         BULGARI RESORT Miami Beach
         </p>
       </div>
