@@ -76,3 +76,9 @@ const Slider = () => {
 };
 
 export default Slider;
+{/* <div  className="container mx-auto p-10 md:py-20 px-0 md:p-10 md:px-0">
+        <div className="min-h-116 rounded-xl bg-center bg-cover transform duration-500 hover:-translate-y-1">
+        <img src={Manzara} />
+        </div>
+
+      </div> */}

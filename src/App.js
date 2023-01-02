@@ -6,7 +6,8 @@ import Rooms from './components/Rooms';
 import Sliders from './components/Slider';
 import Footer from './components/Footer'
 
-import './App.css';
+
+import './Form.css';
 
 function App() {
   return (

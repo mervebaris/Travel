@@ -20,7 +20,7 @@ function Room() {
         </p>
       </div>
       {/*1.oda*/}
-      <div className="max-w-[1400px] h-[500px] mx-auto my-2  lg:mb-[2%] md:mb-[5%] px-4 grid lg:grid-cols-2 gap-6 shadow">
+      <div className="max-w-[1400px] h-auto mx-auto my-12 lg:mb-[2%] md:mb-[5%] px-4 grid lg:grid-cols-2 gap-6 shadow">
         <div className="flex items-strech gap-4">
           <img
             className="object-contain"
@@ -50,7 +50,7 @@ function Room() {
         </div>
       </div>
       {/*2.oda*/}
-      <div className="max-w-[1400px] h-[500px] mx-auto my-2 pt-16 lg:mb-[2%] md:mb-[5%] px-4 grid lg:grid-cols-2 gap-6 shadow">
+      <div className="max-w-[1400px] h-auto mx-auto my-12 pt-16 lg:mb-[2%] md:mb-[5%] px-4 grid lg:grid-cols-2 gap-6 shadow">
         <div className="lg:top-20 relative lg:col-span-1 col-span-2 p-4">
           <h3 className="font-custom2 text-3xl font-bold text-orange-900">
             The Bulgari Villa
@@ -80,7 +80,7 @@ function Room() {
         </div>
       </div>
       {/*2.oda*/}
-      <div className="max-w-[1400px] h-[500px] mx-auto my-2 pt-16 lg:mb-[2%] md:mb-[5%] px-4 grid lg:grid-cols-2 gap-6 shadow">
+      <div className="max-w-[1400px] h-auto mx-auto my-12 pt-16 lg:mb-[2%] md:mb-[5%] px-4 grid lg:grid-cols-2 gap-6 shadow">
         <div className="flex items-strech gap-4">
           <img
             className="object-contain"
