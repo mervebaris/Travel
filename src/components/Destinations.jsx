@@ -14,7 +14,7 @@ import Navbar from "./Navbar";
 const Destinations = () => {
   return (
  
-    <div className="w-full h-screen overflow-scroll bg-orange-50">
+    <div className="w-full h-screen overflow-scroll bg-white">
       <Navbar />
        <h5 className="font-custom2 text-orange-800 text-5xl font-bold text-center pt-[50px]">Destinations</h5>
       <div className="flex min-h-screen items-center justify-center">
