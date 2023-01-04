@@ -6,6 +6,9 @@ import { useNavigate } from "react-router-dom";
 function Navbar() {
   const navigate = useNavigate();
 
+  const App = () => {
+    navigate(`/`);
+  };
   const GitDest = () => {
     navigate(`/destinations`);
   };
@@ -19,21 +22,23 @@ function Navbar() {
     navigate(`/room`);
   };
 
-
-
   const [nav, setNav] = useState(false);
   const handleNav = () => {
-    setNav(!nav)
-    if(!nav) {
-        document.body.style.overflow = 'hidden'
-    }else {
-        document.body.style.overflow = 'scroll'
+    setNav(!nav);
+    if (!nav) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "scroll";
     }
-  }
+  };
   return (
-    <div className="absolute w-full flex justify-between p-4 items-center">
+    <div className="absolute w-full flex justify-between p-4 items-center ">
       <img className="z-20 mx-5 mt-3" src={Logo} width="80px" height="80px" />
-      <HiMenuAlt3 onClick={handleNav} className="z-20 text-white cursor-pointer  m-4" size={40} />
+      <HiMenuAlt3
+        onClick={handleNav}
+        className="z-20 text-orange-800 cursor-pointer  m-4"
+        size={40}
+      />
       <div
         className={
           nav
@@ -42,11 +47,22 @@ function Navbar() {
         }
       >
         <ul className="flex flex-col fixed w-full h-full items-center justify-center">
-          <li className="font-custom2 font-bold text-3xl p-8">Home</li>
-          <li onClick={GitDest} className="font-custom2 font-bold text-3xl p-8">Destinations</li>
-          <li onClick={GitRez} className="font-custom2 font-bold text-3xl p-8">Rezervations</li>
-          <li onClick={GitAmen} className="font-custom2 font-bold text-3xl p-8">Amenities</li>
-          <li onClick={GitRoom}  className="font-custom2 font-bold text-3xl p-8">Rooms</li>
+          <li onClick={App} className="font-custom2 font-bold text-3xl p-8 cursor-pointer">
+            Home
+          </li>
+          <li onClick={GitRoom} className="font-custom2 font-bold text-3xl p-8 cursor-pointer">
+           Hotels
+          </li>
+
+          <li onClick={GitAmen} className="font-custom2 font-bold text-3xl p-8 cursor-pointer">
+            What's On
+          </li>
+          <li onClick={GitDest} className="font-custom2 font-bold text-3xl p-8 cursor-pointer">
+            Destinations
+          </li>
+          <li onClick={GitRez} className="font-custom2 font-bold text-3xl p-8 cursor-pointer">
+            Contact
+          </li>
         </ul>
       </div>
     </div>

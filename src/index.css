@@ -8,6 +8,10 @@
 
 @layer base{
     button{
-        @apply border py-2 px-3 rounded-full
+        @apply border py-2 px-3 rounded-full;
     }
+}
+.input-text{
+    @apply font-custom2 text-orange-800 bg-transparent focus:outline-none border border-r-0 border-t-0 border-l-0 tracking-wide;
+
 }

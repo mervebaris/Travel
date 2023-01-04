@@ -1,18 +1,20 @@
 import React from "react";
-import Manzara from "../assets/manzara6.jpg";
+import Manzara from "../assets/res1.jpg";
+import Navbar from "./Navbar";
 
 const Amenities = () => {
   return (
-    <div>
+    <div className="w-full h-screen overflow-scroll">
+      <Navbar />
       <div className="container mx-auto p-10 md:py-15 px-0 md:p-10 md:px-0">
         <p className="font-custom2 text-3xl md:text-3xl font-bold text-orange-900 text-center mb-8">
-          STARLIGHT DINNER EXPERIENCE
+        WHAT'S ON IN BALI
         </p>
         <div className=" max-w-[100%] max-h-[50%] rounded-xl bg-center bg-cover transform duration-500 hover:-translate-y-1">
           <img src={Manzara} />
         </div>
-        <div className="max-w-[1400px] m-auto px-4 grid lg:grid-cols-2 gap-7">
-            <p className="font-custom2 text-lg pt-4 text-orange-800 mt-4">
+        <div className="max-w-full m-auto px-4 mt-12 grid lg:grid-cols-1 gap-7 shadow">
+            <p className="font-custom2 text-bold text-xl pt-2 text-orange-800  mb-10">
               Special occasions are all the more spectacular at Bulgari Resort
               Bali, which offers a unique private dining experience in the open
               air. Surrounded by the Resort’s lush flora and set beneath the
@@ -265,6 +267,67 @@ const Amenities = () => {
               alt="sdsa"
               src="https://www.bulgarihotels.com/.imaging/bhr-wide-big-jpg/dam/arteit/78965---when-nature-surpasses-fantasy---sekumpul-f/format-2560x1600-78965/jcr%3Acontent"
             />
+          </article>
+        
+
+          <article className=" min-h-116 max-w-xl w-full rounded-xl transform duration-500 hover:-translate-y-1 cursor-pointer">
+            <img
+              className="object-cover w-full h-full"
+              alt="sdsa"
+              src="https://i.pinimg.com/564x/a0/86/37/a086370eacb14843e8c473141a9552f5.jpg"
+            />
+          </article>
+          <article
+            className="p-10 min-h-116 max-w-3xl w-full rounded-xl text-gray-100 xl:col-span-2 bg-center bg-cover transform duration-500 hover:-translate-y-1 cursor-pointer"
+            style={{
+              backgroundImage: `url("https://i.pinimg.com/564x/85/a3/e5/85a3e5b90c6d8387552c7caf901e55c0.jpg")`,
+            }}
+          >
+             <div className="mt-20">
+              <span className="text-lg bg-orange-50 text-orange-800 p-2">Moonlanding - </span>
+              <span className="font-bold text-lg bg-orange-50 text-orange-800 border-orange-800 p-2 ">Neil Armstrong</span>
+            </div>
+            <div className="mt-5 flex justify-between ">
+              <span className="p-2 font-bold bg-orange-50 text-orange-800 border-orange-800 ">Travel Guide</span>
+            </div>
+          </article>
+
+          <article className=" min-h-116 max-w-xl w-full rounded-xl transform duration-500 hover:-translate-y-1 cursor-pointer">
+            <img
+              className="object-cover w-full h-full"
+              alt="sdsa"
+              src="https://i.pinimg.com/564x/cf/e1/e2/cfe1e203bb784f170929f563e154d2e2.jpg"
+            />
+          </article>
+          <article className=" min-h-116 max-w-xl w-full rounded-xl transform duration-500 hover:-translate-y-1 cursor-pointer">
+            <img
+              className="object-cover w-full h-full"
+              alt="sdsa"
+              src="https://images6.alphacoders.com/588/588754.jpg"
+            />
+          </article>
+
+          <article className=" min-h-116 max-w-xl w-full rounded-xl transform duration-500 hover:-translate-y-1 cursor-pointer">
+            <img
+              className="object-cover w-full h-full"
+              alt="sdsa"
+              src="https://free4kwallpapers.com/uploads/originals/2021/03/05/a-comma-in-the-ocean--breakwater-on-nusa-dua-coast-bali-indonesia-wallpaper.jpg"
+            />
+          </article>
+
+          <article
+            className="p-10 min-h-116 max-w-3xl w-full rounded-xl text-gray-100 xl:col-span-2 bg-center bg-cover transform duration-500 hover:-translate-y-1 cursor-pointer"
+            style={{
+              backgroundImage: `url("https://p4.wallpaperbetter.com/wallpaper/326/734/370/blurred-coral-diving-suits-island-wallpaper-preview.jpg")`,
+            }}
+          >
+            <div className="mt-20">
+              <span className="text-lg bg-orange-50 text-orange-800 p-2">Moonlanding - </span>
+              <span className="font-bold text-lg bg-orange-50 text-orange-800 border-orange-800 p-2 ">Neil Armstrong</span>
+            </div>
+            <div className="mt-5 flex justify-between ">
+              <span className="p-2 font-bold bg-orange-50 text-orange-800 border-orange-800 ">Travel Guide</span>
+            </div>
           </article>
         </section>
       </section>

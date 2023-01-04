@@ -4,9 +4,12 @@ import otel1 from "../assets/otel2.jpg";
 import otel2 from "../assets/otel3.jpg";
 import otel3 from "../assets/otel4.jpg";
 import Footer from './Footer'
+import Navbar from './Navbar'
+
 function Room() {
   return (
     <div className="w-full h-screen overflow-scroll">
+      <Navbar />
       <video
         className="top-0 left-0 w-full h-5/6 object-cover"
         src={otel}
@@ -16,7 +19,7 @@ function Room() {
       />
       <div className=" max-w[900px] shadow-lg m-auto px-20 py-12">
         <p className="font-custom2 text-center text-orange-900 font-bold text-5xl">
-          Rooms
+          Hotels
         </p>
       </div>
       {/*1.oda*/}
