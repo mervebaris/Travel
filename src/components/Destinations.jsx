@@ -27,7 +27,7 @@ const Destinations = () => {
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent orange-200 group-hover:from-orange-50/10 group-hover:via-orange-50/70 group-hover:to-orange-50/90"></div>
            <div className="absolute inset-0 flex flex-col items-center justify-center px-9 text-center translate-y-[60%] group-hover:translate-y-0 transition-all">
             <h2 className="font-custom2 text-3xl font-bold text-orange-800 bg-orange-50/70 p-2 mb-24"> Bali</h2>
-            <p className="font-custom2 text-lg text-orange-800 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Via Privata Fratelli Gabba, 7B, 20121 Milano MI, İtalya</p>
+            <p className="font-custom2 font-bold text-orange-800 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Via Privata Fratelli Gabba, 7B, 20121 Milano MI, İtalya</p>
            </div>
          </div>
          <div className="group relative items-center justify-center overflow-hidden cursor-pointer hover:shadow-xl hover:shadow-orange-800/30 transtion-shadow">
@@ -37,7 +37,7 @@ const Destinations = () => {
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent orange-200 group-hover:from-orange-50/10 group-hover:via-orange-50/70 group-hover:to-orange-50/90"></div>
            <div className="absolute inset-0 flex flex-col items-center justify-center px-9 text-center translate-y-[60%] group-hover:translate-y-0 transition-all">
             <h2 className="font-custom2 text-3xl font-bold text-orange-800 bg-orange-50/70 p-2 mb-24"> Milan</h2>
-            <p className="font-custom2 text-lg text-orange-800 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Via Privata Fratelli Gabba, 7B, 20121 Milano MI, İtalya</p>
+            <p className="font-custom2 font-bold text-orange-800 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Via Privata Fratelli Gabba, 7B, 20121 Milano MI, İtalya</p>
            </div>
          </div>
          <div className="group relative items-center justify-center overflow-hidden cursor-pointer hover:shadow-xl hover:shadow-orange-800/30 transtion-shadow">
@@ -47,7 +47,7 @@ const Destinations = () => {
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent orange-200 group-hover:from-orange-50/10 group-hover:via-orange-50/70 group-hover:to-orange-50/90"></div>
            <div className="absolute inset-0 flex flex-col items-center justify-center px-9 text-center translate-y-[60%] group-hover:translate-y-0 transition-all">
             <h2 className="font-custom2 text-3xl font-bold text-orange-800 bg-orange-50/70 p-2 mb-24"> Rome</h2>
-            <p className="font-custom2 text-lg text-orange-800 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Via Privata Fratelli Gabba, 7B, 20121 Milano MI, İtalya</p>
+            <p className="font-custom2 font-bold text-orange-800 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Via Privata Fratelli Gabba, 7B, 20121 Milano MI, İtalya</p>
            </div>
          </div>
          <div className="group relative items-center justify-center overflow-hidden cursor-pointer hover:shadow-xl hover:shadow-orange-800/30 transtion-shadow">
@@ -57,7 +57,7 @@ const Destinations = () => {
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent orange-200 group-hover:from-orange-50/10 group-hover:via-orange-50/70 group-hover:to-orange-50/90"></div>
            <div className="absolute inset-0 flex flex-col items-center justify-center px-9 text-center translate-y-[60%] group-hover:translate-y-0 transition-all">
             <h2 className="font-custom2 text-3xl font-bold text-orange-800 bg-orange-50/70 p-2 mb-24"> Paris</h2>
-            <p className="font-custom2 text-lg text-orange-800 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Via Privata Fratelli Gabba, 7B, 20121 Milano MI, İtalya</p>
+            <p className="font-custom2 font-bold text-orange-800 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Via Privata Fratelli Gabba, 7B, 20121 Milano MI, İtalya</p>
            </div>
          </div>
          <div className="group relative items-center justify-center overflow-hidden cursor-pointer hover:shadow-xl hover:shadow-orange-800/30 transtion-shadow">
@@ -67,7 +67,7 @@ const Destinations = () => {
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent orange-200 group-hover:from-orange-50/10 group-hover:via-orange-50/70 group-hover:to-orange-50/90"></div>
            <div className="absolute inset-0 flex flex-col items-center justify-center px-9 text-center translate-y-[60%] group-hover:translate-y-0 transition-all">
             <h2 className="font-custom2 text-3xl font-bold text-orange-800 bg-orange-50/70 p-2 mb-24"> London</h2>
-            <p className="font-custom2 text-lg text-orange-800 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Via Privata Fratelli Gabba, 7B, 20121 Milano MI, İtalya</p>
+            <p className="font-custom2 font-bold text-orange-800 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Via Privata Fratelli Gabba, 7B, 20121 Milano MI, İtalya</p>
            </div>
          </div>
          <div className="group relative items-center justify-center overflow-hidden cursor-pointer hover:shadow-xl hover:shadow-orange-800/30 transtion-shadow">
@@ -77,7 +77,7 @@ const Destinations = () => {
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent orange-200 group-hover:from-orange-50/10 group-hover:via-orange-50/70 group-hover:to-orange-50/90"></div>
            <div className="absolute inset-0 flex flex-col items-center justify-center px-9 text-center translate-y-[60%] group-hover:translate-y-0 transition-all">
             <h2 className="font-custom2 text-3xl font-bold text-orange-800 bg-orange-50/70 p-2 mb-24"> Los Angles</h2>
-            <p className="font-custom2 text-lg text-orange-800 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Via Privata Fratelli Gabba, 7B, 20121 Milano MI, İtalya</p>
+            <p className="font-custom2 font-bold text-orange-800 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Via Privata Fratelli Gabba, 7B, 20121 Milano MI, İtalya</p>
            </div>
          </div>
          <div className="group relative items-center justify-center overflow-hidden cursor-pointer hover:shadow-xl hover:shadow-orange-800/30 transtion-shadow">
@@ -87,7 +87,7 @@ const Destinations = () => {
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent orange-200 group-hover:from-orange-50/10 group-hover:via-orange-50/70 group-hover:to-orange-50/90"></div>
            <div className="absolute inset-0 flex flex-col items-center justify-center px-9 text-center translate-y-[60%] group-hover:translate-y-0 transition-all">
             <h2 className="font-custom2 text-3xl font-bold text-orange-800 bg-orange-50/70 p-2 mb-24"> Miami</h2>
-            <p className="font-custom2 text-lg text-orange-800 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Via Privata Fratelli Gabba, 7B, 20121 Milano MI, İtalya</p>
+            <p className="font-custom2 font-bold text-orange-800 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Via Privata Fratelli Gabba, 7B, 20121 Milano MI, İtalya</p>
            </div>
          </div>
          <div className="group relative items-center justify-center overflow-hidden cursor-pointer hover:shadow-xl hover:shadow-orange-800/30 transtion-shadow">
@@ -97,7 +97,7 @@ const Destinations = () => {
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent orange-200 group-hover:from-orange-50/10 group-hover:via-orange-50/70 group-hover:to-orange-50/90"></div>
            <div className="absolute inset-0 flex flex-col items-center justify-center px-9 text-center translate-y-[60%] group-hover:translate-y-0 transition-all">
             <h2 className="font-custom2 text-3xl font-bold text-orange-800 bg-orange-50/70 p-2 mb-24"> Tokyo</h2>
-            <p className="font-custom2 text-lg text-orange-800 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Via Privata Fratelli Gabba, 7B, 20121 Milano MI, İtalya</p>
+            <p className="font-custom2 font-bold text-orange-800 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Via Privata Fratelli Gabba, 7B, 20121 Milano MI, İtalya</p>
            </div>
          </div>
          <div className="group relative items-center justify-center overflow-hidden cursor-pointer hover:shadow-xl hover:shadow-orange-800/30 transtion-shadow">
@@ -107,7 +107,7 @@ const Destinations = () => {
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent orange-200 group-hover:from-orange-50/10 group-hover:via-orange-50/70 group-hover:to-orange-50/90"></div>
            <div className="absolute inset-0 flex flex-col items-center justify-center px-9 text-center translate-y-[60%] group-hover:translate-y-0 transition-all">
             <h2 className="font-custom2 text-3xl font-bold text-orange-800 bg-orange-50/70 p-2 mb-24"> Shanghai</h2>
-            <p className="font-custom2 text-lg text-orange-800 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Via Privata Fratelli Gabba, 7B, 20121 Milano MI, İtalya</p>
+            <p className="font-custom2 font-bold text-orange-800 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Via Privata Fratelli Gabba, 7B, 20121 Milano MI, İtalya</p>
            </div>
          </div>
         </div>
