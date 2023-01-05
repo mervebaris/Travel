@@ -1,25 +1,29 @@
-import Hero from './components/Hero';
-import Navbar from './components/Navbar';
-import Offers from './components/Offers';
-import Plan from './components/Plan';
-import Rooms from './components/Rooms';
-import Sliders from './components/Slider';
-import Footer from './components/Footer'
+import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
+import Offers from "./components/Offers";
+import Plan from "./components/Plan";
+import Rooms from "./components/Rooms";
+import Sliders from "./components/Slider";
+import Footer from "./components/Footer";
 
 
-import './Form.css';
+import "./Form.css";
 
 function App() {
+
   return (
-    <div>
-     <Navbar />
-     <Hero />
-     <Offers />
-     <Plan />
-     <Rooms />
-     <Sliders />
-     <Footer />
-    </div>
+
+      <div>
+        <Navbar />
+        <Hero />
+
+        <Offers />
+        <Plan />
+        <Rooms />
+        <Sliders />
+        <Footer />
+      </div>
+ 
   );
 }
 
